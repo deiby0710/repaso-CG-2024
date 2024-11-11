@@ -1,0 +1,24 @@
+<div class="flex flex-column justify-content-center align-items-center gap-5">
+    <h1 class="m-7">Formulario de Solicitud de Vacaciones</h1>
+    <div class="flex justify-content-center flex-column w-6 gap-5 m-5">
+        <label for=""><strong>Nombre</strong></label>
+        <div class="flex w-full flex-column md:flex-row">
+            <input type="text" pInputText placeholder="Primer Nombre" class="w-6"/>
+            <input type="text" pInputText placeholder="Apellido" class="w-6"/>
+        </div>
+    </div>
+    <div class="flex justify-content-center flex-column w-6 gap-5 m-5">
+        <label for="emailId"><strong>Email</strong></label>
+        <p-iconField iconPosition="left" class="w-full">
+            <p-inputIcon styleClass="pi pi-envelope" />
+            <input type="text" pInputText placeholder="Email" id="emailId" class="w-full"/>
+        </p-iconField>
+    </div>
+    <div class="flex justify-content-center flex-column w-6 gap-5 m-5">
+        <label for="telefonoId"><strong>Teléfono</strong></label>
+        <p-iconField iconPosition="left" class="w-full">
+            <p-inputIcon styleClass="pi pi-phone" />
+            <input type="text" pInputText placeholder="Teléfono" id="telefonoId" class="w-full"/>
+        </p-iconField>
+    </div>
+</div>
